@@ -1,0 +1,80 @@
+name: uav_dispatch
+description: Professional UAV dispatch platform mobile app
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State management
+  provider: ^6.0.0
+  
+  # HTTP client
+  http: ^1.1.0
+  
+  # Local storage
+  shared_preferences: ^2.2.0
+  
+  # JSON serialization
+  json_annotation: ^4.8.0
+  
+  # Navigation
+  go_router: ^10.0.0
+  
+  # UI components
+  flutter_svg: ^2.0.0
+  cached_network_image: ^3.3.0
+  
+  # Maps
+  google_maps_flutter: ^2.5.0
+  amap_flutter_map: ^3.0.0
+  
+  # Payment
+  flutter_stripe: ^9.0.0
+  
+  # Social login
+  google_sign_in: ^6.1.0
+  wechat_sdk: ^1.0.0
+  alipay_sdk: ^1.0.0
+  
+  # Utils
+  intl: ^0.18.0
+  dio: ^5.3.0
+  
+  # Logging
+  logger: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.0
+  json_serializable: ^6.7.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
